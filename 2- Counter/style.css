@@ -1,0 +1,54 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.8em;
+    color: rgb(52, 25, 77);
+    text-align: center;
+    margin-top: 240px;
+}
+
+.number {
+    font-size: 7rem;
+    font-weight: 800;
+    color: salmon;
+    text-align: center;
+    margin-top: 55px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin:65px;
+    cursor: pointer;
+    
+}
+
+
+
+.dec {
+    border: 2px solid rgb(133, 116, 116);
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 14px;
+    font-weight: 600;
+}
+
+.res {
+    border: 2px solid rgb(133, 116, 116);
+    padding: 10px;
+    margin-right: 14px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.inc { 
+    border: 2px solid rgb(133, 116, 116);
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+}

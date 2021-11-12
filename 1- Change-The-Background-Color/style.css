@@ -1,0 +1,56 @@
+ * {
+     padding:0;
+     margin: 0;
+ }
+
+ 
+.navbar {
+    display: flex;
+    background-color: rgb(73, 17, 17);
+}
+
+.nav-item {
+    list-style: none;
+    padding:30px 100px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: rgb(216, 202, 230);
+    font-size: 18px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-item right {
+    justify-content: flex-end;
+}
+
+.rightt {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+
+.center  {
+    text-align: center;
+    margin:250px auto;
+    font-size: 1.6em;
+
+}
+
+
+.btnstyle button {
+    display: block;
+    margin:40px auto;
+    background-color: transparent;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-size: 19px;
+    color: brown;
+    border: 1px solid black;
+    cursor: pointer;
+}
