@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    font-size: 3em;
+    color: rgb(43, 36, 36);
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+
+.box {
+    width: 80%;
+    margin: 10px auto;
+    background-color: #f8edeb;
+    margin: 160px;
+    border-radius: 12px;
+}
+h2 {
+    text-align: center;
+    font-size: 1.7em;
+}
+
+h3 {
+    text-align: center;
+    color: #03045e;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin:10px auto;
+    display: block;
+}
+p {
+    padding:30px;
+    text-align: center;
+    line-height: 1.9;
+    margin:10px auto;
+    width: 60%;
+}
+
+.btn-style {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    text-align: center;
+    background-color: burlywood;
+    color: darkblue;
+    padding: 12px;
+    border-radius: 6px;
+    border:none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+
+.prev-btn {
+    font-size: 1.5em;
+    color: orange;
+    margin-right: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.next-btn {
+    cursor: pointer;
+    font-size: 1.5em;
+    color: orange;
+    border: none;
+}
